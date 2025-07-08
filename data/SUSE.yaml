@@ -1,0 +1,2 @@
+---
+openvox_platform::openvox::repo::baseurl: "%{lookup('openvox_platform::openvox::repo::repo')}/sles/%{os.release.major}/$basearch"

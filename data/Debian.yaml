@@ -1,0 +1,3 @@
+---
+openvox_platform::openvox::repo::baseurl: https://s3.osuosl.org/openvox-apt
+openvox_platform::openvox::repo::gpgkey: https://s3.osuosl.org/openvox-apt/GPG-KEY-openvox.pub

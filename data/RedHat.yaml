@@ -1,0 +1,4 @@
+---
+openvox_platform::openvox::repo::repo: https://s3.osuosl.org/openvox-yum/openvox8
+openvox_platform::openvox::repo::gpgkey: https://s3.osuosl.org/openvox-yum/GPG-KEY-openvox.pub
+openvox_platform::openvox::repo::baseurl: "%{lookup('openvox_platform::openvox::repo::repo')}/el/%{os.release.major}/$basearch"
